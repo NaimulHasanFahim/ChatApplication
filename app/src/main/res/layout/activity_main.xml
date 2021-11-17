@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="100sp"
+        android:translationY="150sp" />
+
+    <TextView
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:text="Anti Harassment"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="120sp"
+        android:translationY="200sp" />
+
+    <TextView
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:text="App"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="150sp"
+        android:translationY="250sp" />
+
+    <Button
+        android:id="@+id/need_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:translationX="100sp"
+        android:translationY="350sp" />
+
+    <Button
+        android:id="@+id/alrd_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:translationX="100sp"
+        android:translationY="250sp" />
+
+</LinearLayout>
